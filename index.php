@@ -5,7 +5,7 @@ $args1    = 20;
 $args2    = '20';
 
 if ($args1 === $args2) {
-    print 'eşittir.';
+    print 'eşittir. ';
 } else {
     print 'değildir.';
 }
