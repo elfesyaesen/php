@@ -5,7 +5,11 @@ $args1    = 20;
 $args2    = '20';
 
 if ($args1 === $args2) {
-    print 'eşittir. ';
+    print 'eşittir.';
+} else if ($args1 > $args2) {
+    print $args1 . ' : büyüktür.';
+} else if ($args1 < $args2) {
+    print $args1 . ' Küçüktür ' . $args;
 } else {
-    print 'değildir.';
+    print 'koşul dışı...';
 }
